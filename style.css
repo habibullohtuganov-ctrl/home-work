@@ -30,3 +30,136 @@
     align-items: center;
     font-size: 17px;
 }
+.all2{
+    display: none;
+}
+.zll{
+    width: 100%;
+    height: 736px;
+    background: linear-gradient(rgba(179, 210, 255, 1),rgba(167, 203, 255, 1));
+}
+.zll1{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.zll3{
+    width: 43%;
+    height: 736px;
+    background-image: url(./front-view-man-holding-documents\ 1.png);
+    background-repeat: no-repeat;
+    
+}
+.zll2{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.zll1 h1{
+    font-size: 55px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.zll4{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.zll4 p{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 14px;
+}
+.zll2 button{
+    width: 400px;
+    padding: 15px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 6px;
+    background: linear-gradient(rgba(255, 255, 255, 1));
+}
+.zll5{
+    width: 480px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background: linear-gradient(rgba(255, 255, 255, 1));
+    padding: 10px;
+    border-radius: 10px;
+}
+.zll6{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.zll3{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.zll3 button{
+    width: 250px;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 35px;
+    background: linear-gradient(rgba(7, 28, 59, 1));
+    position: relative;
+    top: 100px;
+    left: 70px;
+}
+@media(max-width:600px)
+{
+    .all1{
+        display: none;
+    }
+    .all2{
+        display: block;
+        width: 30px;
+    }
+    .icon{
+        display: none;
+    }
+    .all button{
+        display: none;
+    }
+    .zll{
+        width: 100%;
+        height: auto;
+    }
+    .zll1{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+    .zll2{
+        width: 90%;
+    }
+    .zll2 button{
+        width: 100%;
+    }
+    .zll3{
+        width: 100%;
+    }
+    .zll5{
+        width: 90%;
+        margin-top: 30px;
+    }
+    .zll3 button{
+        margin-right: 120px;
+    }
+    .zll4 p{
+       text-align: start;
+    }
+}
