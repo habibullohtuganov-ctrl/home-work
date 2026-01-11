@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.all{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+.all button{
+    display: flex;
+    gap: 10px;
+    padding: 13px 15px;
+    align-items: center;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background: linear-gradient(rgba(6, 27, 58, 1));
+}
+.icon{
+    width: 20px;
+    color: white;
+}
+.all1{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    font-size: 17px;
+}
